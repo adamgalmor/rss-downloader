@@ -4,7 +4,7 @@ import os
 import re
 
 # RSS Feed URL
-rss_url = "https://www.pjisrael.org/feed/podcast/"
+rss_url = "YOUR_RSS_FEED_URL_HERE"  # Replace with your RSS feed URL
 
 # Parse the RSS feed
 feed = feedparser.parse(rss_url)
